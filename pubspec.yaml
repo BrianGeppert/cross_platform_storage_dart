@@ -1,7 +1,7 @@
-name: chrome_storage_dart
+name: cross_platform_storage_dart
 description: >
-  Element access to the chrome.storage API.
-version: 0.0.1
+  Element access to the chrome.storage and localStorage APIs.
+version: 0.0.2
 author: <Brian Geppert> <briangeppert@briangeppert.com>
 homepage: http://www.briangeppert.com
 dependencies:
