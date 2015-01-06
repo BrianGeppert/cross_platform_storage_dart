@@ -111,7 +111,6 @@ class CrossPlatformStorage extends PolymerElement {
         name: window.localStorage[name]
       });
     }
-    print((this.chromeApp ? '' : 'not ') + 'running as a Chrome App');
   }
 
   void onLoaded(var keys) {
