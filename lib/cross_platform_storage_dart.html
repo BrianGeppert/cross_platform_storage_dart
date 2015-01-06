@@ -1,0 +1,27 @@
+<!--
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<!--
+Element access to localStorage / Chrome Storage.  The "name" property
+is the key to the data ("value" property) stored in Chrome/local storage.
+`cross-platform-storage-dart` automatically saves the value to storage when
+value is changed.  Note that if value is an object auto-save will be
+triggered only when value is a different instance.
+    <cross-platform-storage-dart name="my-app-storage" value="{{value}}"></cross-platform-storage-dart>
+@element cross-platform-storage-dart
+@blurb Element access to localStorage / Chrome Storage.
+@url github.com/BrianGeppert/cross-platform-storage-dart
+@categories Data
+-->
+
+<link rel="import" href="../../packages/polymer/polymer.html">
+
+<polymer-element name="cross-platform-storage-dart" attributes="name value useRaw autoSaveDisabled sync" hidden>
+<script type="application/dart" src="cross_platform_storage_dart.dart"></script>
+</polymer-element>
